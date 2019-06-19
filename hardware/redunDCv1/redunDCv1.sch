@@ -1,4 +1,378 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "redunDCv1"
+Date "2019-06-19"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5D0A3381
+P 1250 2075
+F 0 "J2" H 1250 2475 50  0000 C CNN
+F 1 "PS1_PWR" V 1350 2050 50  0000 C CNN
+F 2 "" H 1250 2075 50  0001 C CNN
+F 3 "~" H 1250 2075 50  0001 C CNN
+	1    1250 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5D0A76FC
+P 1250 4425
+F 0 "J5" H 1250 4825 50  0000 C CNN
+F 1 "PS2_PWR" V 1350 4425 50  0000 C CNN
+F 2 "" H 1250 4425 50  0001 C CNN
+F 3 "~" H 1250 4425 50  0001 C CNN
+	1    1250 4425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5D0A8A69
+P 1250 1200
+F 0 "J1" H 1250 1425 50  0000 C CNN
+F 1 "PS1_ALARM" V 1350 1150 50  0000 C CNN
+F 2 "" H 1250 1200 50  0001 C CNN
+F 3 "~" H 1250 1200 50  0001 C CNN
+	1    1250 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5D0AA172
+P 1250 3550
+F 0 "J4" H 1250 3750 50  0000 C CNN
+F 1 "PS2_ALARM" V 1350 3500 50  0000 C CNN
+F 2 "" H 1250 3550 50  0001 C CNN
+F 3 "~" H 1250 3550 50  0001 C CNN
+	1    1250 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5D0AB11F
+P 9325 1150
+F 0 "J7" H 9405 1142 50  0000 L CNN
+F 1 "OUT1.1" H 9405 1051 50  0000 L CNN
+F 2 "" H 9325 1150 50  0001 C CNN
+F 3 "~" H 9325 1150 50  0001 C CNN
+	1    9325 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5D0AB492
+P 9325 1550
+F 0 "J8" H 9405 1542 50  0000 L CNN
+F 1 "OUT1.2" H 9405 1451 50  0000 L CNN
+F 2 "" H 9325 1550 50  0001 C CNN
+F 3 "~" H 9325 1550 50  0001 C CNN
+	1    9325 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5D0AB934
+P 9325 1925
+F 0 "J9" H 9405 1917 50  0000 L CNN
+F 1 "OUT1.3" H 9405 1826 50  0000 L CNN
+F 2 "" H 9325 1925 50  0001 C CNN
+F 3 "~" H 9325 1925 50  0001 C CNN
+	1    9325 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5D0ABC50
+P 9325 2325
+F 0 "J10" H 9405 2317 50  0000 L CNN
+F 1 "OUT1.4" H 9405 2226 50  0000 L CNN
+F 2 "" H 9325 2325 50  0001 C CNN
+F 3 "~" H 9325 2325 50  0001 C CNN
+	1    9325 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5D0AC043
+P 9325 2675
+F 0 "J11" H 9405 2667 50  0000 L CNN
+F 1 "OUT1.5" H 9405 2576 50  0000 L CNN
+F 2 "" H 9325 2675 50  0001 C CNN
+F 3 "~" H 9325 2675 50  0001 C CNN
+	1    9325 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5D0AC4EA
+P 9325 3025
+F 0 "J12" H 9405 3017 50  0000 L CNN
+F 1 "OUT1.6" H 9405 2926 50  0000 L CNN
+F 2 "" H 9325 3025 50  0001 C CNN
+F 3 "~" H 9325 3025 50  0001 C CNN
+	1    9325 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5D0AC95A
+P 9325 3675
+F 0 "J13" H 9405 3667 50  0000 L CNN
+F 1 "OUT2.1" H 9405 3576 50  0000 L CNN
+F 2 "" H 9325 3675 50  0001 C CNN
+F 3 "~" H 9325 3675 50  0001 C CNN
+	1    9325 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5D0ACD74
+P 9325 4100
+F 0 "J14" H 9405 4092 50  0000 L CNN
+F 1 "OUT2.2" H 9405 4001 50  0000 L CNN
+F 2 "" H 9325 4100 50  0001 C CNN
+F 3 "~" H 9325 4100 50  0001 C CNN
+	1    9325 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5D0AD1A8
+P 9325 4475
+F 0 "J15" H 9405 4467 50  0000 L CNN
+F 1 "OUT2.3" H 9405 4376 50  0000 L CNN
+F 2 "" H 9325 4475 50  0001 C CNN
+F 3 "~" H 9325 4475 50  0001 C CNN
+	1    9325 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5D0AD857
+P 9325 4875
+F 0 "J16" H 9405 4867 50  0000 L CNN
+F 1 "OUT2.4" H 9405 4776 50  0000 L CNN
+F 2 "" H 9325 4875 50  0001 C CNN
+F 3 "~" H 9325 4875 50  0001 C CNN
+	1    9325 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5D0BABA3
+P 2200 2825
+F 0 "J3" V 2072 2905 50  0000 L CNN
+F 1 "PS1_BAT" V 2163 2905 50  0000 L CNN
+F 2 "" H 2200 2825 50  0001 C CNN
+F 3 "~" H 2200 2825 50  0001 C CNN
+	1    2200 2825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J6
+U 1 1 5D0BD648
+P 2200 5150
+F 0 "J6" V 2072 5230 50  0000 L CNN
+F 1 "PS2_BAT" V 2163 5230 50  0000 L CNN
+F 2 "" H 2200 5150 50  0001 C CNN
+F 3 "~" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 4725 1525 4725
+Wire Wire Line
+	1525 4725 1525 4775
+Wire Wire Line
+	1525 4825 1450 4825
+Wire Wire Line
+	1450 4525 1525 4525
+Wire Wire Line
+	1525 4525 1525 4575
+Wire Wire Line
+	1525 4625 1450 4625
+Wire Wire Line
+	1450 4325 1525 4325
+Wire Wire Line
+	1525 4325 1525 4375
+Wire Wire Line
+	1525 4425 1450 4425
+Wire Wire Line
+	1450 4125 1525 4125
+Wire Wire Line
+	1525 4125 1525 4175
+Wire Wire Line
+	1525 4225 1450 4225
+Wire Wire Line
+	1450 2475 1525 2475
+Wire Wire Line
+	1525 2475 1525 2425
+Wire Wire Line
+	1525 2375 1450 2375
+Wire Wire Line
+	1450 2275 1525 2275
+Wire Wire Line
+	1525 2275 1525 2225
+Wire Wire Line
+	1525 2175 1450 2175
+Wire Wire Line
+	1450 2075 1525 2075
+Wire Wire Line
+	1525 2075 1525 2025
+Wire Wire Line
+	1525 1975 1450 1975
+Wire Wire Line
+	1450 1875 1525 1875
+Wire Wire Line
+	1525 1875 1525 1825
+Wire Wire Line
+	1525 1775 1450 1775
+Connection ~ 1525 2425
+Wire Wire Line
+	1525 2425 1525 2375
+Connection ~ 1525 2225
+Wire Wire Line
+	1525 2225 1525 2175
+Text Label 1625 2225 0    50   ~ 0
+PS1_BAT-
+Text Label 1625 2425 0    50   ~ 0
+PS1_BAT+
+Wire Wire Line
+	2100 2425 2100 2625
+Wire Wire Line
+	1525 2425 2100 2425
+Wire Wire Line
+	2200 2625 2200 2225
+Wire Wire Line
+	1525 2225 2200 2225
+Text Label 1625 4575 0    50   ~ 0
+PS2_BAT-
+Text Label 1625 4775 0    50   ~ 0
+PS2_BAT+
+Connection ~ 1525 4775
+Wire Wire Line
+	1525 4775 1525 4825
+Wire Wire Line
+	2100 4775 2100 4950
+Wire Wire Line
+	1525 4775 2100 4775
+Wire Wire Line
+	2200 4950 2200 4575
+Wire Wire Line
+	1525 4575 2200 4575
+Connection ~ 1525 4575
+Wire Wire Line
+	1525 4575 1525 4625
+Text Label 1625 2025 0    50   ~ 0
+PS1_V+
+Text Label 1625 4375 0    50   ~ 0
+PS2_V+
+Wire Wire Line
+	1625 4375 1525 4375
+Connection ~ 1525 4375
+Wire Wire Line
+	1525 4375 1525 4425
+Wire Wire Line
+	1625 4175 1525 4175
+Connection ~ 1525 4175
+Wire Wire Line
+	1525 4175 1525 4225
+Wire Wire Line
+	1625 2025 1525 2025
+Connection ~ 1525 2025
+Wire Wire Line
+	1525 2025 1525 1975
+Wire Wire Line
+	1625 1825 1525 1825
+Connection ~ 1525 1825
+Wire Wire Line
+	1525 1825 1525 1775
+$Comp
+L power:GND #PWR04
+U 1 1 5D0D89CA
+P 1625 4175
+F 0 "#PWR04" H 1625 3925 50  0001 C CNN
+F 1 "GND" V 1630 4047 50  0000 R CNN
+F 2 "" H 1625 4175 50  0001 C CNN
+F 3 "" H 1625 4175 50  0001 C CNN
+	1    1625 4175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D0D9494
+P 1625 1825
+F 0 "#PWR02" H 1625 1575 50  0001 C CNN
+F 1 "GND" V 1630 1697 50  0000 R CNN
+F 2 "" H 1625 1825 50  0001 C CNN
+F 3 "" H 1625 1825 50  0001 C CNN
+	1    1625 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5D0DB3BD
+P 1500 1475
+F 0 "#PWR01" H 1500 1225 50  0001 C CNN
+F 1 "GND" H 1505 1302 50  0000 C CNN
+F 2 "" H 1500 1475 50  0001 C CNN
+F 3 "" H 1500 1475 50  0001 C CNN
+	1    1500 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5D0E0203
+P 1500 3825
+F 0 "#PWR03" H 1500 3575 50  0001 C CNN
+F 1 "GND" H 1505 3652 50  0000 C CNN
+F 2 "" H 1500 3825 50  0001 C CNN
+F 3 "" H 1500 3825 50  0001 C CNN
+	1    1500 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1300 1500 1300
+Wire Wire Line
+	1500 1300 1500 1475
+Wire Wire Line
+	1450 1100 1500 1100
+Wire Wire Line
+	1500 1100 1500 1300
+Connection ~ 1500 1300
+Wire Wire Line
+	1450 3650 1500 3650
+Wire Wire Line
+	1500 3650 1500 3825
+Wire Wire Line
+	1450 3450 1500 3450
+Wire Wire Line
+	1500 3450 1500 3650
+Connection ~ 1500 3650
+Text Label 1600 3750 0    50   ~ 0
+PS2_BAT-LOW
+Text Label 1600 3550 0    50   ~ 0
+PS2_AC-OK
+Text Label 1625 1400 0    50   ~ 0
+PS1_BAT-LOW
+Text Label 1625 1200 0    50   ~ 0
+PS1_AC-OK
+Wire Wire Line
+	1450 1400 1625 1400
+Wire Wire Line
+	1450 1200 1625 1200
+Wire Wire Line
+	1450 3750 1600 3750
+Wire Wire Line
+	1450 3550 1600 3550
 $EndSCHEMATC
