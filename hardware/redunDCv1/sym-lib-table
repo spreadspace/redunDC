@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name redundc)(type Legacy)(uri /home/equinox/spreadspace/redundc/hardware/lib/redundc.lib)(options "")(descr ""))
+)
