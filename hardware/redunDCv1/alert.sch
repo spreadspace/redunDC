@@ -463,19 +463,6 @@ Wire Wire Line
 	6650 4375 6700 4375
 Connection ~ 6650 4275
 $Comp
-L Transistor_FET:BS170 Q?
-U 1 1 5E9172EC
-P 8775 3650
-AR Path="/5E5892B2/5E9172EC" Ref="Q?"  Part="1" 
-AR Path="/5E884285/5E9172EC" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8981 3696 50  0000 L CNN
-F 1 "BS170" H 8981 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8975 3575 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8775 3650 50  0001 L CNN
-	1    8775 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Speaker LS?
 U 1 1 5E9172F2
 P 9350 2875
@@ -526,19 +513,6 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 8230 4475 50  0001 C CNN
 F 3 "~" H 8300 4475 50  0001 C CNN
 	1    8300 4475
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q?
-U 1 1 5E91730A
-P 9275 4475
-AR Path="/5E5892B2/5E91730A" Ref="Q?"  Part="1" 
-AR Path="/5E884285/5E91730A" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9481 4521 50  0000 L CNN
-F 1 "BS170" H 9481 4430 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9475 4400 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 9275 4475 50  0001 L CNN
-	1    9275 4475
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -623,4 +597,26 @@ Text HLabel 2000 3775 0    50   Input ~ 0
 PS1_V+
 Text HLabel 2000 3975 0    50   Input ~ 0
 PS2_V+
+$Comp
+L Transistor_FET:BS170F Q?
+U 1 1 5D7BD696
+P 8775 3650
+F 0 "Q?" H 8981 3696 50  0000 L CNN
+F 1 "BS170F" H 8981 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8975 3575 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/BS170F.pdf" H 8775 3650 50  0001 L CNN
+	1    8775 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BS170F Q?
+U 1 1 5D7C0356
+P 9275 4475
+F 0 "Q?" H 9481 4521 50  0000 L CNN
+F 1 "BS170F" H 9481 4430 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9475 4400 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/BS170F.pdf" H 9275 4475 50  0001 L CNN
+	1    9275 4475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

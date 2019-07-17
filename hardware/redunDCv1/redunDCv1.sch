@@ -614,9 +614,9 @@ Wire Wire Line
 	8950 4775 8850 4775
 Wire Wire Line
 	8850 4625 8950 4625
-Text Label 8850 4800 2    50   ~ 0
+Text Label 8850 4775 2    50   ~ 0
 PS2_V+
-Text Label 8850 4650 2    50   ~ 0
+Text Label 8850 4625 2    50   ~ 0
 PS1_V+
 Connection ~ 9325 4700
 Wire Wire Line
@@ -743,67 +743,67 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5D1B6969
-P 7850 5900
-F 0 "H?" H 7950 5946 50  0000 L CNN
-F 1 "M3" H 7950 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 7850 5900 50  0001 C CNN
-F 3 "~" H 7850 5900 50  0001 C CNN
-	1    7850 5900
+P 7800 5950
+F 0 "H?" H 7900 5996 50  0000 L CNN
+F 1 "M3" H 7900 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7800 5950 50  0001 C CNN
+F 3 "~" H 7800 5950 50  0001 C CNN
+	1    7800 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5D1B6E6F
-P 8575 5900
-F 0 "H?" H 8675 5946 50  0000 L CNN
-F 1 "M3" H 8675 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8575 5900 50  0001 C CNN
-F 3 "~" H 8575 5900 50  0001 C CNN
-	1    8575 5900
+P 8525 5950
+F 0 "H?" H 8625 5996 50  0000 L CNN
+F 1 "M3" H 8625 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8525 5950 50  0001 C CNN
+F 3 "~" H 8525 5950 50  0001 C CNN
+	1    8525 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5D1B7337
-P 8225 5900
-F 0 "H?" H 8325 5946 50  0000 L CNN
-F 1 "M3" H 8325 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8225 5900 50  0001 C CNN
-F 3 "~" H 8225 5900 50  0001 C CNN
-	1    8225 5900
+P 8175 5950
+F 0 "H?" H 8275 5996 50  0000 L CNN
+F 1 "M3" H 8275 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8175 5950 50  0001 C CNN
+F 3 "~" H 8175 5950 50  0001 C CNN
+	1    8175 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5D1B76C3
-P 8900 5900
-F 0 "H?" H 9000 5946 50  0000 L CNN
-F 1 "M3" H 9000 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8900 5900 50  0001 C CNN
-F 3 "~" H 8900 5900 50  0001 C CNN
-	1    8900 5900
+P 8850 5950
+F 0 "H?" H 8950 5996 50  0000 L CNN
+F 1 "M3" H 8950 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8850 5950 50  0001 C CNN
+F 3 "~" H 8850 5950 50  0001 C CNN
+	1    8850 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5D1B7B50
-P 9225 5900
-F 0 "H?" H 9325 5946 50  0000 L CNN
-F 1 "M3" H 9325 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9225 5900 50  0001 C CNN
-F 3 "~" H 9225 5900 50  0001 C CNN
-	1    9225 5900
+P 9175 5950
+F 0 "H?" H 9275 5996 50  0000 L CNN
+F 1 "M3" H 9275 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9175 5950 50  0001 C CNN
+F 3 "~" H 9175 5950 50  0001 C CNN
+	1    9175 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5D1B7DEC
-P 9575 5900
-F 0 "H?" H 9675 5946 50  0000 L CNN
-F 1 "M3" H 9675 5855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9575 5900 50  0001 C CNN
-F 3 "~" H 9575 5900 50  0001 C CNN
-	1    9575 5900
+P 9525 5950
+F 0 "H?" H 9625 5996 50  0000 L CNN
+F 1 "M3" H 9625 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9525 5950 50  0001 C CNN
+F 3 "~" H 9525 5950 50  0001 C CNN
+	1    9525 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2091,10 +2091,10 @@ F8 "CS7" I L 4775 1875 50
 F9 "CS8" I L 4775 1950 50 
 F10 "VS1" I L 4775 2100 50 
 F11 "VS2" I L 4775 2175 50 
-F12 "PS1_AC_OK" I L 4775 2350 50 
 F13 "PS1_BAT-LOW" I L 4775 2425 50 
 F14 "PS2_AC-OK" I L 4775 2575 50 
 F15 "PS2_BAT-LOW" I L 4775 2650 50 
+F16 "PS1_AC-OK" I L 4775 2350 50 
 $EndSheet
 Wire Wire Line
 	4700 2350 4775 2350
@@ -2116,6 +2116,34 @@ Wire Wire Line
 	9600 1550 9600 1675
 Wire Wire Line
 	7175 1550 7175 1675
-NoConn ~ 4775 2100
-NoConn ~ 4775 2175
+Text Label 4700 2100 2    50   ~ 0
+PS1_V+
+Text Label 4700 2175 2    50   ~ 0
+PS2_V+
+Wire Wire Line
+	4700 2100 4775 2100
+Wire Wire Line
+	4775 2175 4700 2175
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D7C5A50
+P 9875 5950
+F 0 "H?" H 9975 5996 50  0000 L CNN
+F 1 "M3" H 9975 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9875 5950 50  0001 C CNN
+F 3 "~" H 9875 5950 50  0001 C CNN
+	1    9875 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D7C5A56
+P 10225 5950
+F 0 "H?" H 10325 5996 50  0000 L CNN
+F 1 "M3" H 10325 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10225 5950 50  0001 C CNN
+F 3 "~" H 10225 5950 50  0001 C CNN
+	1    10225 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
